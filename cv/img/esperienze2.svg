@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1112"
+   sodipodi:docname="esperienze2.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1114"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.70551956"
+     inkscape:cx="397.57934"
+     inkscape:cy="561.99718"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1109">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15338"
+       id="linearGradient15340"
+       x1="480.92398"
+       y1="1313.6095"
+       x2="477.03235"
+       y2="1010.2141"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.17231283,0,0,0.22024395,24.741767,-115.89884)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient15338">
+      <stop
+         style="stop-color:#000033;stop-opacity:1;"
+         offset="0"
+         id="stop15334" />
+      <stop
+         style="stop-color:#1ac6ff;stop-opacity:0.85000002"
+         offset="1"
+         id="stop15336" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="display:inline;fill:url(#linearGradient15340);fill-opacity:1;stroke:#00115c;stroke-width:0.194808;stroke-linejoin:round;stroke-opacity:0"
+       d="M 62.440587,97.602709 10.834573,174.02088 H 202.80556 L 150.8142,97.64358 c -13.69023,8.28012 -28.80142,12.66703 -44.15012,12.81717 -15.376262,-0.14931 -30.513987,-4.55063 -44.223493,-12.858041 z"
+       id="path4112"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.4745px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.28686"
+       x="26.523495"
+       y="165.02667"
+       id="text65794"
+       transform="scale(0.97074657,1.030135)"><tspan
+         sodipodi:role="line"
+         id="tspan65792"
+         x="26.523495"
+         y="165.02667"
+         style="stroke-width:0.28686">ESPERIENZE PROFESSIONALI</tspan></text>
+  </g>
+</svg>

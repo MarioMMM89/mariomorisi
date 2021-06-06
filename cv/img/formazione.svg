@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg872"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="formazione.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview874"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.35275978"
+     inkscape:cx="395.45325"
+     inkscape:cy="559.87108"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs869">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14628"
+       id="linearGradient64962"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,179.04944,-93.868259)"
+       x1="-541.38281"
+       y1="1316.3574"
+       x2="178.62894"
+       y2="656.80475" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14628">
+      <stop
+         style="stop-color:#000033;stop-opacity:1;"
+         offset="0"
+         id="stop14624" />
+      <stop
+         style="stop-color:#1ac6ff;stop-opacity:0.85000002"
+         offset="1"
+         id="stop14626" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14628"
+       id="linearGradient64964"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,179.04944,-93.868259)"
+       x1="-541.88281"
+       y1="905.51074"
+       x2="91.32029"
+       y2="905.51074" />
+    <rect
+       x="-403.97614"
+       y="1313.6095"
+       width="329.77646"
+       height="362.75409"
+       id="rect20066" />
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g835"
+       transform="translate(2.1166667,-34.395849)">
+      <path
+         id="rect958-5-1"
+         style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient64962);fill-opacity:1;stroke:url(#linearGradient64964);stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:0"
+         d="m 152.2671,37.011609 c 0.58697,39.835362 19.01351,77.622581 50.81189,104.199841 l -93.88471,113.20651 c -7.78729,9.04259 -14.345018,15.83928 -20.237527,20.58636 L 3.9315773,196.66755 35.808577,37.011609 Z"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         id="text20064"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.45;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20066);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         inkscape:transform-center-x="15.328033"
+         inkscape:transform-center-y="7.6942584"
+         transform="matrix(0.40850005,-0.49179101,0.44021218,0.46741593,-332.8665,-568.45495)"><tspan
+           x="-403.97656"
+           y="1353"
+           id="tspan854"><tspan
+             style="-inkscape-font-specification:sans-serif;fill:#ffffff"
+             id="tspan852">Formazione</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

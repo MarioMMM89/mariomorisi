@@ -1,0 +1,215 @@
+body {
+	background-color: #00001a;
+	animation: 4s ease-in dissolvenza;
+	overflow: hidden;
+} 
+
+.label-principale {
+	position: absolute;
+	z-index: 50;
+}
+.toggle, 
+.full-screen-close
+{
+	display: none;
+}
+ 
+.full-screen-close
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	cursor: pointer;
+	top:0;
+	left:0;
+}
+
+.menu-container
+{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	background: rgb(0, 0, 51, 0.9);
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 105%;
+	box-shadow: 0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+	z-index:99;
+}
+
+.toggle-btn,
+.close-btn
+{
+	cursor: pointer;
+}
+
+#close-img
+{
+	width: 2rem;
+}
+
+.slide-menu a
+{	
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	padding: 1.5rem 6rem;
+	margin: 0 2%;
+	text-decoration: none;
+	font-size: 1.5rem;
+ 	text-transform: uppercase;
+ 	display: block;
+	transition: box-shadow .5s ease-in-out, background-color .5s linear ;
+}
+ 
+.slide-menu a:hover
+{
+	background-color: rgb(51, 153, 255, 0.6);
+	box-shadow:  0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+}
+/*----------  TOGGLE OFF-CANVAS MENU  ----------*/
+ 
+.toggle:checked + .container > .menu-container 
+{
+	left: 50%;
+}
+ 
+.toggle:checked + .container > .content .full-screen-close
+{
+  	display: block;
+  	background: rgba(0,0,0,.5);
+}
+
+.menu-container, 
+.content
+{
+	transition: left 0.5s ease-in-out;
+}
+
+/**************grafica logo******************/
+#contenitore {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+}
+
+#tap {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	position:absolute;
+	color: white;
+	height: 550px;
+	text-transform: uppercase;
+	text-shadow:  0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+}
+#cerchio1 {
+	border: 4px solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	border-top-color: white;
+	border-bottom-color: white;
+	animation: 4s linear infinite cerchionero;
+}
+
+#cerchio2 {
+	border: 4px solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	background-color: transparent;
+	border-right-color: white;
+	border-left-color: white;
+	animation: 4s linear infinite cerchiorosso;
+}
+
+#esterno {
+	border: 2px solid white;
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	background-color: transparent;
+	opacity: 0.8;
+	animation: 15s linear infinite cerchioesterno;
+	box-shadow: 0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+
+}
+#esterno2 {
+	border: 2px solid white;
+	/*position: absolute; */
+	width: 630px;
+	height: 630px;
+	background-color: transparent;
+	opacity: 0.8;
+	animation: 15s linear infinite cerchioesternoDue;
+	box-shadow: 0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+	
+}
+img {
+	width: 320px;
+	z-index: 1;
+}
+a {
+	z-index: 2;
+}
+/*****************ANIMAZIONI***************************/
+@keyframes dissolvenza {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes accenditi {
+	from {
+		box-shadow: 0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+	}
+	50% {
+		box-shadow: 0 0 30px #3399ff, 0 0 50px #3399ff, 0 0 70px #3399ff;
+	}
+	to {
+		box-shadow: 0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+	}
+}
+@keyframes cerchiorosso {
+	 	from {
+	 		transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(-360deg);
+		}
+}
+
+@keyframes cerchionero {
+	 	from {
+	 		transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+}
+@keyframes cerchioesterno {
+	 	from {
+	 		transform: rotate(0deg);
+	 	}
+		to {
+			transform: rotate(360deg);
+		}
+}
+@keyframes cerchioesternoDue {
+	 	from {
+	 		transform: rotate(0deg);
+	 	}
+		to {
+			transform: rotate(-360deg);
+		}
+}
