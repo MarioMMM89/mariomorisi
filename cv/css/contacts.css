@@ -15,7 +15,8 @@ body {
 #footer {
     background: linear-gradient(135deg,rgb(0, 0, 51, 0.9) 50%,rgb(26, 198, 255, 0.5));
     box-shadow: 0 0 2px rgb(255, 255, 255, 0.5), 0 0 5px rgb(255, 255, 255, 0.4), 0 0 10px rgb(255, 255, 255, 0.3);
-    height: 70px;
+    height: 80px;
+    color: white;
     position: absolute;
     bottom: -70px;
 }
