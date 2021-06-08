@@ -5,11 +5,16 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/******************* NAVBAR ******************************/
 .navbar, .navbar-expand {
     background: linear-gradient(135deg,rgb(0, 0, 51, 0.9) 50%,rgb(26, 198, 255, 0.5));
     box-shadow: 0 0 2px rgb(255, 255, 255, 0.5), 0 0 5px rgb(255, 255, 255, 0.4), 0 0 10px rgb(255, 255, 255, 0.3);
 }
-
+/*************** CENTRAL LOGO **************************/
 #anagrafiche {
     display: flex;
     width: 80%;
@@ -23,6 +28,12 @@ body {
     margin: auto;
 }
 
+#anagrafiche img:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+
+/************** CAROUSEL *************************/
 #container-carousel {
     padding: 0;
     position: relative;
@@ -31,12 +42,7 @@ body {
     margin: 0 auto;
 }
 
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
+/************** MAIN NAVIGATION  *************/
 .imgsvg {
     width: 33%;
     margin-top: -10%;
@@ -94,7 +100,19 @@ a {
     transition: transform 0.4s;
 }
 
+#presentazione {
+    padding: 10px;
+    background-color: white;
+    color: rgb(0, 0, 51);
+    box-shadow: 0 0 2px rgb(0, 0, 51, 0.5), 0 0 5px rgb(0, 0, 51, 0.5), 0 0 10px rgb(0, 0, 51, 0.5);
+    width: 95%;
+    line-height: 2;
+    font-size: 1.2rem;
+    position: relative;
+    padding-bottom: 5vh;
+}
 
+/******************** ESPERIENZE-SKILLS-FORMAZIONE  *******************/
 
 .tabella {
     border-bottom: 2px solid rgb(0, 0, 51, 0.5);
@@ -122,10 +140,33 @@ a {
     display: none;
 }
 
-#spacer2 {
-    position: relative;
-    padding-bottom: 35vh;
+#formazione-target {
+    padding-left: 10%;
 }
+
+#timeline {
+    position: absolute;
+    border-left: 5px solid white;
+    height: 100%;
+    right: 50%;
+    z-index: -10;
+}
+#esperienze-target {
+    position: relative;
+}
+
+.exp {
+    margin: 0 3% 4% 3%;
+    background: linear-gradient(90deg,rgb(255, 255, 255, 0.0),rgb(255, 255, 255, 1)15% 85%,rgb(255, 255, 255, 0.0));
+    padding: 2% 1%;
+}
+
+.exp:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+
+/***************** FOOTER ***************************/
 
 #footer {
     display: flex;
@@ -153,27 +194,4 @@ a {
 
 #footer img {
     margin-right: 15px;
-}
-
-
-#timeline {
-    position: absolute;
-    border-left: 5px solid white;
-    height: 100%;
-    right: 50%;
-    z-index: -10;
-}
-#esperienze-target {
-    position: relative;
-}
-
-.exp {
-    margin: 0 3% 4% 3%;
-    background: linear-gradient(90deg,rgb(255, 255, 255, 0.0),rgb(255, 255, 255, 1)15% 85%,rgb(255, 255, 255, 0.0));
-    padding: 2% 1%;
-}
-
-.exp:hover {
-    transform: scale(1.1);
-    transition: transform 0.4s;
 }
