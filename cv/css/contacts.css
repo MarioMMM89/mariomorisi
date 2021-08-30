@@ -27,6 +27,7 @@ body {
     margin: 8% 2%;
     text-shadow: 0 0 2px rgb(0, 0, 51, 0.9);
     border-bottom: solid rgb(0, 0, 51, 0.8) 2px;
+    min-height: 100px;
 }
 
 #contatti img {
@@ -43,4 +44,5 @@ body {
     text-decoration: none;
     border-bottom: solid rgb(0, 0, 51, 0.8) 2px;
     display: block;
+    min-height: 100px;
 }
