@@ -121,6 +121,8 @@ a {
     margin-bottom: 3%;
 }
 .skilltab {
+    display: flex;
+    justify-content: space-around;
     border: 2px solid rgb(0, 0, 51, 0.5);
     border-radius: 5%;
     padding: 7px 0;
