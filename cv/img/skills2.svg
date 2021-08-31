@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.70551956"
-     inkscape:cx="394.74455"
-     inkscape:cy="560.57978"
+     inkscape:cx="526.5623"
+     inkscape:cy="410.33589"
      inkscape:window-width="1366"
      inkscape:window-height="745"
      inkscape:window-x="-8"
@@ -50,7 +50,7 @@
        y1="1316.3574"
        x2="-14.136806"
        y2="795.70947"
-       gradientTransform="matrix(-0.26458333,0,0,0.26458333,28.932035,-128.70123)" />
+       gradientTransform="matrix(-0.99999999,0,0,0.99999999,109.34942,-486.42985)" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient14628">
@@ -72,7 +72,7 @@
        y1="905.51074"
        x2="91.32029"
        y2="905.51074"
-       gradientTransform="matrix(-0.26458333,0,0,0.26458333,28.932035,-128.70123)" />
+       gradientTransform="matrix(-0.99999999,0,0,0.99999999,109.34942,-486.42985)" />
     <rect
        x="112.67362"
        y="1244.9061"
@@ -86,16 +86,22 @@
      id="layer1">
     <path
        id="rect958-5"
-       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient17980);fill-opacity:1;stroke:url(#linearGradient17982);stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:0"
-       d="M 55.714384,2.178632 C 55.127404,42.013994 36.700879,79.801206 4.902485,106.37847 l 93.884709,113.20652 c 7.787296,9.04259 14.345016,15.83928 20.237526,20.58636 L 204.0499,161.83457 172.1729,2.178632 Z"
-       sodipodi:nodetypes="ccccccc" />
+       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient17980);fill-opacity:1;stroke:url(#linearGradient17982);stroke-width:0.999999;stroke-linejoin:round;stroke-opacity:0"
+       d="M 210.57422,8.234375 C 208.35571,158.79322 138.7122,301.61105 18.529297,402.06055 L 373.36914,829.92773 c 29.4323,34.17672 54.21738,59.86493 76.48828,77.80665 l 63.9667,-75.14018 59.59832,-78.89798 62.83733,-124.94794 38.73632,-127.33812 C 703.66512,239.11091 673.06025,149.35958 650.73242,8.234375 Z"
+       transform="scale(0.26458333)"
+       sodipodi:nodetypes="cccccccccc" />
     <text
        xml:space="preserve"
        id="text40862"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect40864);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0.28912755,0.34696123,-0.34696123,0.28912755,454.93536,-259.07882)"><tspan
+       transform="matrix(0.43043059,0.51187324,-0.50209295,0.43835594,624.90883,-486.99707)"><tspan
          x="112.67383"
          y="1280.2969"
-         id="tspan3747">SKILLS</tspan></text>
+         id="tspan1680">SKILLS</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 119.02472,240.17135 C 161.865,191.87625 200.14921,137.95306 172.1729,2.178632 v 0"
+       id="path959"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>

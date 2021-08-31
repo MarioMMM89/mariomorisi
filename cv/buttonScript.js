@@ -1,9 +1,10 @@
 $("#formazione, #skills, #esperienze, #pulsante-logo").on("click", function (e) {
     e.stopPropagation();
+    /*ho scambiato esperienze con formazione */
     if(this.id == "formazione") {
-        $("#formazione-target").fadeIn();
+        $("#formazione-target").fadeOut();
         $("#skills-target").fadeOut();
-        $("#esperienze-target").fadeOut();
+        $("#esperienze-target").fadeIn();
         $("#presentazione").fadeOut();
     }
     if(this.id == "skills") {
@@ -13,8 +14,8 @@ $("#formazione, #skills, #esperienze, #pulsante-logo").on("click", function (e) 
         $("#presentazione").fadeOut();
     }
     if(this.id == "esperienze") {
-        $("#esperienze-target").fadeIn();
-        $("#formazione-target").fadeOut();
+        $("#esperienze-target").fadeOut();
+        $("#formazione-target").fadeIn();
         $("#skills-target").fadeOut();
         $("#presentazione").fadeOut();
     }

@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.99775533"
-     inkscape:cx="399.39651"
-     inkscape:cy="560.75872"
+     inkscape:zoom="0.70551956"
+     inkscape:cx="268.59638"
+     inkscape:cy="285.60512"
      inkscape:window-width="1366"
      inkscape:window-height="745"
      inkscape:window-x="-8"
@@ -81,20 +81,25 @@
     <path
        id="rect958-5-1"
        style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient64962);fill-opacity:1;stroke:url(#linearGradient64964);stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:0"
-       d="m 154.38377,2.61576 c 0.58697,39.835362 19.01351,77.622581 50.81189,104.19984 l -93.88471,113.20651 c -7.78729,9.04259 -14.345021,15.83928 -20.23753,20.58636 L 6.048244,162.2717 37.925244,2.61576 Z"
-       sodipodi:nodetypes="ccccccc" />
+       d="m 154.38377,2.61576 c 0.58697,39.835362 19.01351,77.622581 50.81189,104.19984 L 111.31095,220.02211 C 103.52366,229.0647 96.965929,235.86139 91.07342,240.60847 66.089479,219.16663 46.304336,189.55525 35.299736,146.14588 30.165438,124.8975 28.429468,97.98525 29.293028,66.740445 30.940855,47.414847 33.296846,26.908977 37.925244,2.61576 Z"
+       sodipodi:nodetypes="cccccccc" />
     <text
        xml:space="preserve"
        id="text20064"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.45;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20066);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.45;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20066);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
        inkscape:transform-center-x="-1.5927593"
        inkscape:transform-center-y="14.901749"
        transform="matrix(0.29211786,-0.34503881,0.33845585,0.30730345,-247.62272,-361.00809)"><tspan
          x="-403.97656"
          y="1353"
-         id="tspan5321">ESPERIENZE </tspan><tspan
+         id="tspan1644">ESPERIENZE </tspan><tspan
          x="-403.97656"
          y="1411"
-         id="tspan5323">LAVORATIVE</tspan></text>
+         id="tspan1646">LAVORATIVE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 91.073419,240.60847 C 31.748795,187.80303 17.272927,106.4065 37.925242,2.61576"
+       id="path1065"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
