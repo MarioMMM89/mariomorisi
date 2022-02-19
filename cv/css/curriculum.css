@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-image: linear-gradient(to left,#e6f5ff, #6666ff 30% 70%, #e6f5ff );
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +16,9 @@ a {
 .navbar, .navbar-expand {
     background: linear-gradient(135deg,rgb(0, 0, 51, 0.9) 50%,rgb(26, 198, 255, 0.5));
     box-shadow: 0 0 2px rgb(255, 255, 255, 0.5), 0 0 5px rgb(255, 255, 255, 0.4), 0 0 10px rgb(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 /*************** CENTRAL LOGO **************************/
 #anagrafiche {
@@ -39,7 +45,7 @@ a {
     position: relative;
     z-index: -1;
     max-height: 30%;
-    margin: 0 auto;
+    margin: 4rem auto 0 auto;
 }
 
 /************** MAIN NAVIGATION  *************/
@@ -107,7 +113,7 @@ a {
     box-shadow: 0 0 2px rgb(0, 0, 51, 0.5), 0 0 5px rgb(0, 0, 51, 0.5), 0 0 10px rgb(0, 0, 51, 0.5);
     width: 95%;
     line-height: 2;
-    font-size: 1.2rem;
+    font-size: 2rem;
     position: relative;
     padding-bottom: 5vh;
 }
@@ -119,23 +125,45 @@ a {
     font-weight: bold;
     color: rgb(0, 0, 51);
     margin-bottom: 3%;
+    font-size: 2rem;
 }
 .skilltab {
     display: flex;
-    justify-content: space-around;
     border: 2px solid rgb(0, 0, 51, 0.5);
-    border-radius: 5%;
-    padding: 7px 0;
+    border-radius: 1rem;
     font-weight: bold;
     color: rgb(0, 0, 51);
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin: 2% auto;
     box-shadow:0 0 2px rgb(0, 0, 51, 0.5), 0 0 5px rgb(0, 0, 51, 0.5), 0 0 10px rgb(0, 0, 51, 0.5);
 }
 
 .skilltab:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: transform 0.4s;
+}
+
+.skill-bar{
+    padding: .3rem 1rem;
+    background: linear-gradient(90deg,rgb(255,255,255,0.6) 25%,rgb(26, 198, 255, 0.5));;
+    border-radius: .9rem;
+    border: 2px solid rgb(0, 0, 51, 0.5);
+    width: 50%;
+}
+.w6{
+    width: 60% !important;
+}
+.w7{
+    width: 70% !important;
+}
+.w8{
+    width: 80% !important;
+}
+.w9{
+    width: 90% !important;
+}
+.w10{
+    width: 100% !important;
 }
 
 #esperienze-target, #skills-target, #formazione-target {
@@ -161,6 +189,7 @@ a {
     margin: 0 3% 4% 3%;
     background: linear-gradient(90deg,rgb(255, 255, 255, 0.0),rgb(255, 255, 255, 1)15% 85%,rgb(255, 255, 255, 0.0));
     padding: 2% 1%;
+    font-size: 2rem;
 }
 
 .exp:hover {
@@ -173,27 +202,41 @@ a {
 #footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 5%;
     background: linear-gradient(135deg,rgb(0, 0, 51, 0.9) 50%,rgb(26, 198, 255, 0.5));
     box-shadow: 0 0 2px rgb(255, 255, 255, 0.5), 0 0 5px rgb(255, 255, 255, 0.4), 0 0 10px rgb(255, 255, 255, 0.3);
-    height: 80px;
+    height: 8rem;
     color: white;
+    font-size: 1.5rem;
 }
 
+.f-infos img{
+    margin-right: 5px;
+}
 
-@media only screen and (min-width: 425px) {
-    #footer-flex {
-        display: flex;
+/************m MEDIA ****************/
+@media only screen and (max-width: 426px){
+    .tabella {
+        font-size: 1rem;
     }
-    
-    #footer div {
-        margin: 1% 2% ;
+    #presentazione {
+        font-size: 1rem;
     }
-  }
-
-
-
-#footer img {
-    margin-right: 15px;
+    .skilltab{
+        font-size: 1rem;
+    }
+    .exp{
+        font-size: 1rem;
+    }
+    #footer{
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .f-infos:first-child{
+        padding-top: 10px;
+    }
+    .f-infos:last-child{
+        padding-bottom: 10px;
+    }
 }
