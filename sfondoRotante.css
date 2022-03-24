@@ -150,6 +150,7 @@ body {
 	opacity: 0.8;
 	animation: 15s linear infinite cerchioesternoDue;
 	box-shadow: 0 0 2px #3399ff, 0 0 5px #3399ff, 0 0 10px #3399ff, 0 0 20px #3399ff;
+	cursor: pointer;
 	
 }
 img {
